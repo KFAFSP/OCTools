@@ -7,8 +7,11 @@ Remarks:
 	The program must be flashed onto an EEPROM. The data field of the EEPROM must be a valid
 	configuration string.
 
-	Configuration is supplied as a NULL("\0") delimited list (final terminator necessary):
+	Some configuration is fixed, including the redstone side setup. The RX bundle must be connected
+	to the right side of the block, while the TX bundle needs to connect to the left. Optionally,
+	the bottom side will output the busy state: busy on "white", and sending on "orange".
 
+	Configuration is supplied as a NULL("\0") delimited list (final terminator necessary):
 	"TRUST\0PORT\0CHANNELS\0PRIORITY\0TIMEOUT\0"
 
 		TRUST 			is the (prefix of) the trusted address in the connected OC network that is
