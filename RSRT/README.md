@@ -262,17 +262,17 @@ This means that any given analog redstone signals is represented equally by 16 d
 The following is the reference design of a full 16-channel *Immersive Engineering* fanout connector for an **RSRT** transciever. The design can easily be transformed for less chanells by removing fan-out ports. Also, it can be rotated along any axis.
 
 Isometric view:
-![](fanout_iso.png)
+![](doc/fanout_iso.png)
 
 Topdown view:
-![](fanout_top.png)
+![](doc/fanout_top.png)
 
 Side view:
-![](fanout_side.png)
+![](doc/fanout_side.png)
 
 ## Direct coupling
 
 The following is the reference design for a direct coupling connection between two **RSRT** transcievers.
 
 Topdown view:
-![](direct.png)
+![](doc/direct.png)
